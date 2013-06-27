@@ -1,0 +1,9 @@
+create keyspace BtCP;
+use BtCP;
+create column family queue;
+create column family processed;
+create column family hosts;
+create column family dr;
+create column family ds;
+create column family files;
+create column family uploadRatio;

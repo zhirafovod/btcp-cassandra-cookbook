@@ -1,0 +1,15 @@
+use BtCP;
+drop column family queue;
+create column family queue;
+drop column family processed;
+create column family processed;
+drop column family hosts;
+create column family hosts;
+drop column family dr;
+create column family dr;
+drop column family ds;
+create column family ds;
+drop column family files;
+create column family files;
+drop column family uploadRatio;
+create column family uploadRatio;
